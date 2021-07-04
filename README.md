@@ -1,4 +1,5 @@
 # Getting Started with Create React App
+![doggo](https://user-images.githubusercontent.com/61979889/124381151-9f0e8c00-dcc9-11eb-848e-533a4499c870.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
