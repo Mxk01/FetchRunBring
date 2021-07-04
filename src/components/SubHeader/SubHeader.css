@@ -1,0 +1,33 @@
+.subheader__container {
+  margin-top: 10rem;
+  background-color: rgb(248, 244, 244);
+}
+
+.subheader__1 {
+  display: flex;
+  padding: 1rem;
+}
+.subheader__1 > .subheader_mainText {
+  flex: 0.6;
+  font-size: 4rem;
+}
+.subheader__1 > p {
+  flex: 0.3;
+  font-size: 1.1rem;
+}
+.subheader__2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  overflow-x: scroll; /*
+   for scrolling through images */
+  height: 40vh;
+}
+.side_bar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.subheader__slider {
+  flex: 0.3;
+}

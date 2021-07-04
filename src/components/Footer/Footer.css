@@ -1,0 +1,8 @@
+.footer__container {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #222f3e;
+  color: white;
+  padding: 10px;
+  width: 100%;
+}

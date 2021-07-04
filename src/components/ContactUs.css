@@ -1,0 +1,24 @@
+@media screen and (max-width: 600px) {
+  img {
+    width: 100%;
+    height: 30vh;
+    overflow: hidden;
+  }
+  .contact__container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+.contact__container {
+  display: flex;
+  justify-content: center;
+}
+.contact__image {
+  width: 700px;
+  height: 600px;
+}
+
+button {
+  cursor: pointer;
+}

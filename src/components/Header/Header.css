@@ -1,0 +1,48 @@
+.header__container {
+  background-color: rgb(68, 55, 255);
+  color: white;
+  height: 50vh;
+  display: flex;
+  padding: 1.5rem;
+}
+
+.header__mainText {
+  font-size: 5rem;
+}
+
+.header__paragraph {
+  font-size: 1.2rem;
+}
+.header_subdivision {
+  flex: 0.6;
+}
+.header_subdivision2 {
+  flex: 0.4;
+  background: url("https://imgur.com/UOEgpYQ.png");
+  background-size: cover;
+  height: 60vh;
+}
+.header__logo {
+  width: 80px;
+  height: 80px;
+}
+
+@media screen and (max-width: 600px) {
+  .header__subdivision2 {
+    opacity: 0;
+  }
+  .header__subdivision {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header__mainText {
+    font-size: 2.5rem;
+  }
+
+  .header__paragraph {
+    font-size: 0.6rem;
+  }
+}

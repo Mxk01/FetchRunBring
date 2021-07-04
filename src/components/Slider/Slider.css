@@ -1,0 +1,29 @@
+.button__slider {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+}
+.main__slider {
+  display: flex;
+}
+.button__slider > button {
+  border: 0;
+
+  padding: 15px;
+  width: 200px;
+  background-color: rgb(92, 92, 255);
+  color: white;
+  cursor: pointer;
+}
+.main__slider {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(253, 247, 247);
+}
+.sub__slider {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  align-items: center;
+}
